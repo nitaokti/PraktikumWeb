@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<tittle>STUDI KASUS NITA 1</tittle>
+	</head>
+	<body>
+	<?php
+	function selamat() {
+		echo "selamat siang"; 
+	}
+
+	function selamat1() {
+		echo "selamat pagi"; 
+	}
+
+	function selamat2() {
+		echo "selamat sore"; 
+	}
+
+	function selamat3() {
+		echo "selamat malam"; 
+	}
+
+	$jam=13;
+
+	if ($jam>=0 && $jam<=10) {
+		selamat1();
+	} else if ($jam>=11 && $jam<=15) {
+		selamat();
+	} else if ($jam>=16 && $jam<=18) {
+		selamat2();  
+	} else if ($jam>=19 && $jam<=23) {
+		selamat3();
+	}
+
+	?>
+	</body>
+</html>

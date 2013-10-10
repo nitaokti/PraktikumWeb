@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title> Nita | pass by value </title>
+	</head>
+	<body>
+	<?php
+	function jumlah($nilai)
+	{
+	$nilai++;
+	}
+	$input=30;
+	jumlah($input);
+		echo $input;
+	?>
+	</body>
+</html>
+

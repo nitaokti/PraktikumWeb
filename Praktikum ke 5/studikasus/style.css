@@ -1,0 +1,29 @@
+body{
+	margin:0px;
+	font-family:Aller;
+	font-size:16px;
+	background:#383838;
+}
+
+table th{
+	border:1px solid #4771e9;
+}
+
+table tr:hover{
+	background:#bac9f3;
+}
+
+table tr td{
+	border:1px solid #4ee147;
+	color:#ff7200;
+}
+
+.button{
+	height:35px;
+	width:150px;
+	padding:5px;
+	border-radius:7px;
+	border:1px solid #757c7b;
+	background:#f5fefd;
+	cursor:pointer;
+}

@@ -1,0 +1,27 @@
+body{
+	color:#ff7200;
+	margin:0px;
+	font-family:Segoe UI;
+	font-size:18px;
+	margin:8% 35% 8% 35%;
+	background:#383838;
+}
+
+input[type=submit]{
+	height:40px;
+	width:100px;
+	font-family:Proxima Nova;
+	font-size:18px;
+	background:#ff7200;
+	border:1px solid #ff7200;
+	cursor:pointer;
+	color:#fff;
+}
+
+input[type=text]{
+	border:1px solid #ff7200;
+	height:20px;
+	padding:2px;
+	width:150px;
+	
+}
